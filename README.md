@@ -63,4 +63,4 @@ This project is for educational purposes only. Do not use these techniques or sa
 
 Author
 Sylvester Bassey
-If you want, I can also create a **sample answer sheet (solution guide)** like a real SOC report — that’s something recruiters love to see in your portfolio.
+
