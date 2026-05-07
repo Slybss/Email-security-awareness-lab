@@ -15,7 +15,7 @@ Dear User,
 We detected unusual login activity on your email account from a new device located outside your usual region.  
 
 To prevent temporary suspension of your account, please verify your identity immediately by clicking the link below:  
-https[:]//tinyurl[.]com/ypu5kfts  
+https://tinyurl.com/ypu5kfts  
 
 If you do not verify your account within 24 hours, access to your mailbox may be restricted for security reasons.  
 
