@@ -23,7 +23,7 @@ info@libreriacies.es
 
 
 Question 2: Email Header & Technical Analysis
-Findings
+Findings using MXToolbox
 
 •	the "From domain" does not match Microsoft
 •	Return-Path likely differs from display name
