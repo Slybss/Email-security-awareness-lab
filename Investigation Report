@@ -34,10 +34,11 @@ SOC Tools Used
 •	Email client “View Headers”
 •	MXToolbox (for domain reputation)
 •	VirusTotal (URL reputation)
+## MXToolbox Domain Analysis
 
+![MXToolbox Analysis](images/mxtoolbox-analysis.png)
 
       
-
 Analysis of the Sender’s Domain: libreriacies.es
 
 The sender’s domain, libreriacies.es, does not belong to Microsoft and is therefore highly suspicious given that the email claims to originate from the Microsoft Security Team. This clear domain impersonation is a strong indicator of phishing activity.
