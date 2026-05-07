@@ -1,5 +1,7 @@
 Email Awareness lab(Incidence Response)
+
 Question1: IOC present in the mail.
+
 1.	Malicious or suspicious link 
 using url shortener to hide the real link
 
@@ -23,7 +25,7 @@ info@libreriacies.es
 Question 2: Email Header & Technical Analysis
 Findings
 
-•	From domain does not match Microsoft
+•	the "From domain" does not match Microsoft
 •	Return-Path likely differs from display name
 •	SPF/DKIM/DMARC would fail or show soft-fail
 •	Email originates from an untrusted mail server
