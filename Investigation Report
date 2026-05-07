@@ -1,1 +1,48 @@
+Email Awareness lab(Incidence Response)
+Question1: IOC present in the mail.
+1.	Malicious or suspicious link 
+using url shortener to hide the real link
+
+https://tinyurl.com/ypu5kfts
+
+2.	Social engineering: using Threat and urgency with words like prevent your account from temporary suspension, verify your identity, mailbox access restricted, unusual login detected, within 24 hours, to trick one into revealing sensitive details.
+
+3.	Suspicious attachment mentioned. 
+Used the phrase “please find attached a copy”
+
+4.	General or nonspecific name used. 
+(Dear user, instead of Dear Joy, Dear David).
+
+5.	Recipient email address not consistent with Microsoft enterprise account
+sonyundefinedralph@gmail.com
+
+6.	Sender’s address is not an official Microsoft address.
+info@libreriacies.es
+
+
+Question 2: Email Header & Technical Analysis
+Findings
+
+•	From domain does not match Microsoft
+•	Return-Path likely differs from display name
+•	SPF/DKIM/DMARC would fail or show soft-fail
+•	Email originates from an untrusted mail server
+
+SOC Tools Used
+•	Email client “View Headers”
+•	MXToolbox (for domain reputation)
+•	VirusTotal (URL reputation)
+
+
+      
+
+Analysis of the Sender’s Domain: libreriacies.es
+
+The sender’s domain, libreriacies.es, does not belong to Microsoft and is therefore highly suspicious given that the email claims to originate from the Microsoft Security Team. This clear domain impersonation is a strong indicator of phishing activity.
+From a reputation perspective, the domain is unknown and not associated with any trusted email service provider or well-known organization. Domains like this are commonly used in phishing campaigns because they have little or no historical trust and are less likely to be immediately blocked.
+Regarding email security configuration, the domain is likely to have weak or misconfigured authentication controls. In a typical SOC investigation, checks using tools such as MXToolbox would show missing or failing SPF, DKIM, and DMARC records, which prevents proper sender authentication and allows spoofed emails to be delivered.
+
+Conclusion:
+The domain libreriacies.es has a poor reputation, lacks alignment with the claimed sender identity, and likely has inadequate email security configuration, confirming the email as a malicious phishing attempt.
+
 
